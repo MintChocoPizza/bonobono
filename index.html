@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BONOBONO</title>
+
+    <meta name="author" content="2017113037">
+    <meta name="description" content="Bonobono is a sea otter, not an otter. I live on a cliff by the sea.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="./logo.png">
+    <link rel="apple-touch-icon" href="./logo.png">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" media="(max-width: 1024px)" href="./CSS/main_medium.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="./CSS/main_small.css">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="./JS/youtube.js"></script>
+    <script defer src="./JS/main.js"></script>
+</head>
+
+<body>
+<div class="body__container">
+    <!-- HEADER -->
+    <header class="section">
+        <div class="inner clearfix">
+            <!-- LEFE MENU -->
+            <div class="menu-group float--left">
+                <div class="logo">
+                    <a href='./index.html'>Bonobono</a>
+                </div>
+                <ul class="main-menu toggle">
+                    <li><a href="#">Family</a></li>
+                    <li><a href="#">Characters</a></li>
+                    <li><a href="#">Quotes</a></li>
+                    <li><a href="#">Merchandising</a></li>
+                </ul>
+            </div>
+            <!-- RIGHT MENU -->
+            <div class="sign-group float--right toggle">
+                <div class="btn-group">
+                    <a href="#" class="btn sign-in">Sign in</a>
+                    <a href="#" class="btn btn--primary sign-up">Sign up</a>
+                </div>
+                <form id="search-form" method="post" action="">
+                    <input type="text" id="search" class="input--text" placeholder="Search Bonobono">
+                    <input type="submit" value="Submit">
+                </form>
+                <ul class="sub-menu">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div id="toggle-btn">Header Menu Toggle Button</div>
+        </div>
+    </header>
+
+    <!-- VISUAL -->
+    <section class="section section--visual">
+
+        <!-- YOUTUBE VIDEO -->
+        <section class="youtube">
+            <div class="youtube__area">
+                <div id="player"></div>
+            </div>
+            <div class="youtube__cover"></div>
+
+            <!-- INNER -->
+            <div class="inner">
+                <!-- SUMMARY -->
+                <div class="summary">
+                    <h2 class="summary__title">
+                        What&nbsp;Is Bonobono
+                    </h2>
+                    <p class="summary__description">
+                        A cartoon by Mikio Igarashi depicting the life of a forest of sea otter Bonobono, squirrel Porori, and&nbsp;raccoon Neuburi.
+                    </p>
+                </div>
+
+                <!-- SIGN-FORM -->
+                <form id="sign-form" method="post" action="">
+                    <ul>
+                        <li><input type="text" class="input--text" placeholder="Username"></li>
+                        <li><input type="email" class="input--text" placeholder="Email"></li>
+                        <li>
+                            <input type="password" class="input--text" placeholder="Password">
+                            <p class="caption">
+                                Use at least one letter, one numeral, and seven characters.
+                            </p>
+                        </li>
+                        <li>
+                            <button type="submit" class="btn btn--primary">Sign up</button>
+                            <p class="caption">
+                                By clicking "Sign up for Bonobono", you agree to our terms of service and privacy policy. We'll occasionally send you account related emails.
+                            </p>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            
+        </section>
+
+        
+    </section>
+
+    <!-- INTRODUCE -->
+    <section class="section section--feature">
+
+        <div class="summary">
+            <h2 class="summary__title">
+                Popularity of Bonobono
+            </h2>
+            <p class="summary__description">
+                It is quite famous because it has a collection of famous quotes from Bonobono, which makes more than 10 million copies and earns more than 10 million dollars in royalties alone.
+            </p>
+        </div>
+        <!-- YOUTUBE -->
+        <div class="video">
+            <div class="video-ratio">
+                <iframe width="495" height="371" src="https://www.youtube.com/embed/eg8_881_6nY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- QUOTES -->
+        <div class="tiles">
+            <div class="inner">
+                <ul class="clearfix">
+                    <li>
+                        <img src="image/feature_1.jpg" alt="헛소리하지마임마">
+                        <h3>헛소리하지마 임마!!</h3>
+                        <p>If there is a sentence written in English, it seems to have a meaning.</p>
+                    </li>
+
+                    <li>
+                        <img src="image/feature_2.jpg" alt="나 때릴거야?">
+                        <h3>나 때릴거야?</h3>
+                        <p>It's not philosophical, but it comes out quite a lot and is so famous among the lines here.</p>
+                    </li>
+
+                    <li>
+                        <img src="image/feature_3.jpg" alt="즐거운 것은 어째서 끝나버리는 걸까?">
+                        <h3>즐거운 것은 어째서<br>끝나버리는&nbsp;걸까?</h3>
+                        <p>There must be an end to the happy and the painful. Everything in this world must have an end. Why do you think? Maybe it's proof that living things aren't born to do something.</p>
+                    </li>
+
+                    <li>
+                        <img src="image/feature_4.jpg" alt="슬픈 일이나 괴로운 일이 끝나기 위해서 즐거운 일이 끝나는 거란다.">
+                        <h3>슬픈 일이나 괴로운 일을<br>끝내기&nbsp;위해 재밌는 일이<br>끝나는&nbsp;거란다.</h3>
+                        <p>Just as the sun goes down, the night comes, and the sun rises and the morning comes, the joyous things end to end sad or painful things. I mean, the sunrise and sunset are the beginning and the end of the fun.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+      <!--SIGN UP CARD-->
+  <section class="section section--pricing">
+    <div class="inner">
+
+      <div class="card">
+        <div class="cell cell1">
+          <a class="btn btn--primary" href="#">Sign up</a>
+        </div>
+        <div class="cell cell2">
+            Your email list has been activated.
+            Only enabled for e-mail lists.
+            naver.com/
+            daum.net/
+            gmail.com/
+            Kakao.com/
+            It will resume after registration.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="section">
+    <div class="inner">
+        <ul class="site-links">
+            <li><a href="#">namu.wiki</a></li>
+            <li><a href="#">Contáctenos</a></li>
+            <li><a href="#">Términos de uso</a></li>
+            <li>Operado por umanle S.R.L.</li>
+            <li>República del Paraguay</li>
+        </ul>
+        <ul class="site-links">
+            <li>Su zona horaria es Asia/Seoul</li>
+            <li>Impulsado por the seed engine</li>
+        </ul>
+    </div>
+  </footer>
+
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+/* COMMON */
+.summary__title {
+    font-size: 34px !important;
+}
+.summary__description {
+    font-size: 22px;
+}
+
+/* INTRODUCE */
+.section--feature .tiles ul {
+    grid-template-columns: repeat(1, 1fr);
+}
+.section--feature .tiles li {
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* SIGN UP CARD */
+.section--pricing .card {
+    display: block;
+}
+.section--pricing .card .cell2 {
+    border-left: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* FOOTER */
+footer .site-links {
+    display: block;
+    text-align: center;
+}
+footer .site-links :first-child{
+    margin-bottom: 20px;
+}
+footer .site-links li {
+    display: inline;
+}
